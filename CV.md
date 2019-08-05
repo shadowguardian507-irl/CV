@@ -1,7 +1,7 @@
 __James Crowther__  
 LinkedIn : https://www.linkedin.com/in/james-crowther-2377874a/  
 GitHub : https://github.com/shadowguardian507-irl  
-E-mail : James@p-s-e.tk  
+E-mail : james@p-s-e.tk  
 
 # Experience Summary  
 
