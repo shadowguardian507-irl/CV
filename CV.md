@@ -6,7 +6,7 @@ E-mail : james@p-s-e.tk
 # Experience Summary  
 
 ## Personal statement  
-  Experienced Platform Engineer with over 10 years demonstrated history of working in industry. Skilled in Ansible, Linux, Docker, Proxmox, VMware ESX/vSphere, systems automation, Cisco/Cisco-Meraki networking, Group Policy, AWS S3/Cloudfront/Route53 and Continuous Intergration
+  Experienced Platform Engineer with over 10 years demonstrated history of working in industry. Skilled in Ansible, Linux, Docker, Proxmox, VMware ESX/vSphere, systems automation, Cisco/Cisco-Meraki networking, Group Policy, AWS S3/Cloudfront/Route53 and Continuous Integration
 
 ## Business experience  
   Administration of multi-site distributed systems and network infrastructure  
@@ -18,7 +18,7 @@ E-mail : james@p-s-e.tk
 ### Operating Systems  
   Windows: Windows server 2019/2016/2012 R2, Windows 10   
   Linux:  Ubuntu, Debian, Arch, Alpine, RancherOS, K3OS(basic knowlage as result of RancherOS)  
-  Virtualistion: vSpere/ESXi, Proxmox VE, libvirt(basic knowlage)  
+  Virtualisation: vSpere/ESXi, Proxmox VE, libvirt(basic knowledge)  
   Network: Cisco Meraki switches, Cisco Catalyst switches and ASAs, Ubiquiti Networks switches and routers  
   
 ### Software / Programing  
@@ -49,5 +49,5 @@ September 2004 – June 2007 _ BSc Hons Computing Science
 ## Interests  
  Ansible / systems automation  
  Web app creation  
- Opensource development  
+ Open Source development  
  3D design/printing  
