@@ -21,7 +21,7 @@ E-mail : james@p-s-e.tk
 ## Technical experience  
 ### Operating Systems  
   Windows: Windows server 2019/2016/2012 R2, Windows 10   
-  Linux:  Ubuntu, Debian, Arch, Alpine, RancherOS, K3OS(basic knowlage as result of RancherOS)  
+  Linux:  Ubuntu, Debian, Arch, Alpine, RancherOS, K3OS(basic knowledge as result of RancherOS)  
   Virtualisation: vSpere/ESXi, Proxmox VE, libvirt(basic knowledge)  
   Network: Cisco Meraki switches, Cisco Catalyst switches and ASAs, Ubiquiti Networks switches and routers  
   
