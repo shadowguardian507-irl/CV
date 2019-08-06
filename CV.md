@@ -10,9 +10,13 @@ E-mail : james@p-s-e.tk
 
 ## Business experience  
   Administration of multi-site distributed systems and network infrastructure  
+  --  remote management of site interlinking network equipment  
   Systems deployment/configuration automation  
+  --  via use of Ansible to ensure creation of consistent systems  
   Infrastructure planning/structuring  
+  -- creation of supporting infrastructure for 3rd party software to run in  
   Performing problem analysis and rectification  
+  -- automated detection of transient systems connection issues  
 
 ## Technical experience  
 ### Operating Systems  
@@ -21,12 +25,12 @@ E-mail : james@p-s-e.tk
   Virtualisation: vSpere/ESXi, Proxmox VE, libvirt(basic knowledge)  
   Network: Cisco Meraki switches, Cisco Catalyst switches and ASAs, Ubiquiti Networks switches and routers  
   
-### Software / Programing  
+### Software / Programming  
   Ansible, Bash Script, git, Docker, PHP, GOCD(basic use/admin), Group Policy, Active directory, Datadog systems monitoring  
 
 ## Career/Education history  
 
-### Laterooms _ Manchester (city center) 
+### Laterooms _ Manchester (city centre) 
 Aug 2019 - now      _ Platform Engineer (temporarily retained by Administrator, KPMG)  
 Nov 2018 - Aug 2019 _ Platform Engineer  
 Jan 2016 - Nov 2018 _ Foundation Platform Engineer  
@@ -51,3 +55,4 @@ September 2004 – June 2007 _ BSc Hons Computing Science
  Web app creation  
  Open Source development  
  3D design/printing  
+ VR  
