@@ -28,7 +28,7 @@ E-mail : james@p-s-e.tk
   Network: Cisco Meraki switches, Cisco Catalyst switches and ASAs, Ubiquiti Networks switches and routers  
   
 ### Software / Programming  
-  Ansible, Bash Script, git, Docker, PHP, GOCD(basic use/admin), Group Policy, Active directory, Datadog systems monitoring, vb scripting, C 
+  Ansible, Bash Script, git, Docker, PHP, GOCD(basic use/admin), Group Policy, Active directory, Datadog systems monitoring, Terraform, vb scripting, C 
 
 ---
 ## Career/Education history  
@@ -73,4 +73,4 @@ September 2004 – June 2007 _ BSc Hons Computing Science
 References available upon request
   
 &nbsp;  
-*Version R2*
+*Version R3*
