@@ -1,0 +1,31 @@
+{
+  "vscord.enabled": false,
+  "editor.rulers": [120],
+  "markdown-pdf.convertOnSaveExclude": [
+    "Release Version Archive/*",
+    "Release Version Archive/*/*",
+    "README.md",
+  ],
+  "markdown-pdf.margin.bottom": "2cm",
+  "markdown-pdf.margin.top": "2cm",
+  "markdown-pdf.margin.left": "1.5cm",
+  "markdown-pdf.margin.right": "1.5cm",
+  "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"> Version R4 </div>",
+  "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"> Page <span class='pageNumber'></span> of <span class='totalPages'></span></div>",
+  "markdown-pdf.convertOnSave": true,
+  "markdown-pdf.displayHeaderFooter": true,
+  "cSpell.words": [
+    "ADSM",
+    "Crowther",
+    "Datasystems",
+    "Dynatrace",
+    "ecloud",
+    "GOCD",
+    "Laterooms",
+    "licence",
+    "Meraki",
+    "Terragrunt",
+    "UMIST",
+    "Virtualisation"
+  ]
+}
