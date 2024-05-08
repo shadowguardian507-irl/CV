@@ -39,7 +39,7 @@ jobs:
             --output=CV.rtf
             ./.src/CV.source.md
 
-      - run: apt-get -y update && apt-get -y install pandoc pdflatex texlive-latex-recommended letltxmacro texlive-latex-extra texlive-fonts-extra
+      - run: sudo apt-get -y update && sudo apt-get -y install pandoc pdflatex texlive-latex-recommended letltxmacro texlive-latex-extra texlive-fonts-extra
       - run: pandoc --standalone --metadata-file ./.pandoc/core.yml --metadata-file ./.pandoc/latex.yml --from=markdown --to=pdf -t latex --output=CV.alt.pdf ./.src/CV.source.md
       # - uses: docker://pandoc/latex:3.1.13-ubuntu
       #   with:
