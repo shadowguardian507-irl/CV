@@ -33,13 +33,12 @@ jobs:
             --standalone
             --from=markdown
             --to=rtf
-            --metadata-file ./.pandoc/core.yml
             --lua-filter ./.pandoc/pagebreak.lua
             --output=CV.rtf
             ./.src/CV.source.md
 
       - run: sudo apt-get -y update && sudo apt-get -y install pandoc texlive-latex-recommended texlive-latex-extra texlive-fonts-extra
-      - run: pandoc --standalone --metadata-file ./.pandoc/core.yml --metadata-file ./.pandoc/latex.yml --from=markdown --to=pdf -t latex --output=CV.pdf ./.src/CV.source.md
+      - run: pandoc --standalone --metadata-file ./.pandoc/core.yml ./.pandoc/latex.yml --from=markdown --to=pdf -t latex --output=CV.pdf ./.src/CV.source.md
       # - uses: docker://pandoc/latex:3.1.13-ubuntu
       #   with:
       #     args: >-
