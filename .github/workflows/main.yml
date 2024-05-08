@@ -1,0 +1,26 @@
+name: Pandoc Create ODT
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    if: ${{ !contains(github.event.head_commit.message, '#GHActions') }}
+    runs-on: ubuntu-22.04
+    steps:
+      - run: rm -f ./CV.odt
+      - uses: docker://pandoc/core:2.9
+        with:
+          args: >-
+            --standalone
+            --from=markdown
+            --to=opendocument
+            --output=CV.odt
+            ./CV.md
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore(ODT): #GHActions - generate ODT File"
+          commit_user_name: Repo Actions bot
+          commit_user_email: actions@shadowguardian507-irl.co.uk
+          commit_author: Repo Actions bot <actions@shadowguardian507-irl.co.uk>
+          
