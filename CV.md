@@ -5,19 +5,16 @@ E-mail : <james@p-s-e.tk>
 
 ------------------------------------------------------------------------
 
-Experience Summary
-==================
+# Experience Summary
 
-Personal statement
-------------------
+## Personal statement
 
 Experienced DevOps/Platform Engineer with over 14 years demonstrated
 history of working in industry. Skilled in Ansible, Linux, Docker,
 Terraform, Proxmox, systems automation, Gitlab CI/CD, AWS, VMware
 ESX/vSphere.
 
-Business and Technical experience
----------------------------------
+## Business and Technical experience
 
 Systems deployment/configuration automation, to ensure creation of
 consistent systems, via use of:
@@ -41,12 +38,11 @@ Virtualisation/Containers: vSphere/ESXi, Proxmox VE, EC2, Docker, ECS
 ### Software / Programming
 
 Ansible, Python, Bash Script, git, Gitlab CI/CD (inc Components),
-Docker, Terraform, Terragrunt, PHP, C\#
+Docker, Terraform, Terragrunt, PHP, C#
 
 
 
-Career/Education history
-------------------------
+## Career/Education history
 
 ### CDL (Cheshire Datasystems Limited) \_ Stockport
 
@@ -114,28 +110,24 @@ September 2004 -- June 2007 \_ BSc Hons Computing Science
 
 ------------------------------------------------------------------------
 
-Certifications
---------------
+## Certifications
 
 V3 Foundation Certificate in IT Service Management\
 Apple Certified Associate - Mac Integration 10.10\
 AWS Certified Cloud Practitioner
 
-General Information
--------------------
+## General Information
 
 Member of BCS\
 Full clean UK driving licence
 
-Interests
----------
+## Interests
 
 Ansible / systems automation\
 Open Source development\
 3D design/printing\
 VR
 
-References
-----------
+## References
 
 References available upon request
