@@ -15,7 +15,7 @@ jobs:
           args: >-
             --standalone
             --from=markdown
-            --to=opendocument
+            --to=odt
             --output=CV.odt
             ./CV.md
 
