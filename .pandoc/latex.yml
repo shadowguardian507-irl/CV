@@ -1,0 +1,12 @@
+---
+geometry:
+- top=20mm
+- left=20mm
+- right=20mm
+- bottom=20mm
+- heightrounded
+papersize: a4
+fontsize: 12pt
+fontfamily: arev
+linkcolor: blue
+---

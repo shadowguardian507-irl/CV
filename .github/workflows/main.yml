@@ -3,47 +3,50 @@ name: Pandoc Create ODT
 on: push
 
 jobs:
-  convert_via_pandoc:
+  pandoc_build_output:
     if: ${{ !contains(github.event.head_commit.message, '#GHActions') }}
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - run: ls -alh ./
-      - run: rm -f ./CV.odt
-      - run: rm -f ./CV.alt.pdf
-      - run: rm -f ./CV.rtf
-      - uses: docker://pandoc/core:3.1.13
-        with:
-          args: >-
-            --standalone
-            --from=markdown
-            --to=odt
-            --output=CV.odt
-            ./CV.md
       - uses: docker://pandoc/core:3.1.13
         with:
           args: >-
             --standalone
             --from=markdown
             --to=docx
+            --metadata-file ./.pandoc/core.yml
+            --lua-filter ./.pandoc/pagebreak.lua
             --output=CV.docx
-            ./CV.md
+            ./.src/CV.source.md
+      - uses: docker://pandoc/core:3.1.13
+        with:
+          args: >-
+            --standalone
+            --from=markdown
+            --to=markdown
+            --metadata-file ./.pandoc/core.yml
+            --lua-filter ./.pandoc/pagebreak.lua
+            --output=CV.md
+            ./.src/CV.source.md
       - uses: docker://pandoc/core:3.1.13
         with:
           args: >-
             --standalone
             --from=markdown
             --to=rtf
+            --metadata-file ./.pandoc/core.yml
+            --lua-filter ./.pandoc/pagebreak.lua
             --output=CV.rtf
-            ./CV.md
+            ./.src/CV.source.md
       - uses: docker://pandoc/latex:3.1.13
         with:
           args: >-
             --standalone
+            --metadata-file ./.pandoc/core.yml ./.pandoc/latex.yml
             --from=markdown
             --to=pdf
-            --output=CV.alt.pdf
-            ./CV.md
+            --output=CV.pdf
+            ./.src/CV.source.md
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
