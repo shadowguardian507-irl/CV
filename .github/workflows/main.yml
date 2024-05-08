@@ -14,7 +14,7 @@ jobs:
             --standalone
             --from=markdown
             --to=docx
-            --metadata-file ./.pandoc/core.yml
+            --metadata-file ./.pandoc/docx.yml
             --lua-filter ./.pandoc/pagebreak.lua
             --output=CV.docx
             ./.src/CV.source.md
