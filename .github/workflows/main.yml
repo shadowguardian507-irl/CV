@@ -25,6 +25,14 @@ jobs:
           args: >-
             --standalone
             --from=markdown
+            --to=docx
+            --output=CV.docx
+            ./CV.md
+      - uses: docker://pandoc/core:3.1.13
+        with:
+          args: >-
+            --standalone
+            --from=markdown
             --to=rtf
             --output=CV.rtf
             ./CV.md
