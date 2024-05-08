@@ -7,10 +7,12 @@ jobs:
     if: ${{ !contains(github.event.head_commit.message, '#GHActions') }}
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: ls -alh ./
       - run: rm -f ./CV.odt
-      - uses: docker://pandoc/core:2.9
+      - run: rm -f ./CV.alt.pdf
+      - run: rm -f ./CV.rtf
+      - uses: docker://pandoc/core:3.1.13
         with:
           args: >-
             --standalone
@@ -18,8 +20,24 @@ jobs:
             --to=odt
             --output=CV.odt
             ./CV.md
+      - uses: docker://pandoc/core:3.1.13
+        with:
+          args: >-
+            --standalone
+            --from=markdown
+            --to=rtf
+            --output=CV.rtf
+            ./CV.md
+      - uses: docker://pandoc/latex:3.1.13
+        with:
+          args: >-
+            --standalone
+            --from=markdown
+            --to=pdf
+            --output=CV.alt.pdf
+            ./CV.md
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(ODT): #GHActions - generate ODT File"
           commit_user_name: Repo Actions bot
