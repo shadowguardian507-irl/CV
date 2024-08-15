@@ -56,6 +56,11 @@ Nov 2019 - Present \_ DevOps Engineer
     Dynatrace (systems status monitoring), Git (version control and
     storage using Gitlab), Bash scripting, Python, PHP
 -   Providing in-house support and training to other team members
+-   AWS use primaraly includes ECS (both Fargate and EC2 backed), S3,
+    EC2, Route53, CodeDeploy, ALB/ELB and to a lesser extent Cloudfront,
+    GlobalAccelerator, Labda. All primaly provisioned via Terrafrom but
+    with knowlage of manual deployement/corrections of services if
+    needed.
 
 ### Laterooms \_ Manchester (city centre)
 
@@ -127,7 +132,3 @@ Ansible / systems automation\
 Open Source development\
 3D design/printing\
 VR
-
-## References
-
-References available upon request
